@@ -1,0 +1,13 @@
+{
+    "name": "iRuby Juptyer",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "Shopify.ruby-extensions-pack"
+            ]
+        }
+    },
+    "postCreateCommand": "echo 'Dev container created!'"
+}
